@@ -4,4 +4,9 @@
 // Chiedo all'utente il numero N
 
 var N = parseInt(prompt("Inserisci un numero"))
-console.log(N);
+
+// Creo il ciclo per calcolare il cubo
+
+for (var i = 0; i <= N; i++) {
+  console.log(Math.pow(i, 3));
+}
