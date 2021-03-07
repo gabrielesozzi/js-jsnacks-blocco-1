@@ -5,3 +5,7 @@
 for (var i = 0; i <=32; i++) {
   console.log(Math.pow(i, 2));
 }
+
+// for (var i = 0; i <=32; i++) {
+//   console.log(Math.pow(2, i));
+// }

@@ -2,9 +2,16 @@
 // somma di tutte le cifre che compongono il numero.
 
 
-var numero = [parseInt(prompt("Inserisci un numero di 4 cifre"))]
+var numero = prompt("Inserisci un numero")
 console.log(numero);
 
-for (var i = 0; i < numero; i++) {
-  var somma = 0
+var somma = 0;
+
+for (var i = 0; i < numero.length; i++) {
+  var numeroParseInt = parseInt(numero[i]);
+  if (!isNaN(numeroParseInt)) {
+  somma += numeroParseInt;
+  }
 }
+
+console.log(somma);
